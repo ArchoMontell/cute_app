@@ -1,0 +1,10 @@
+:root {
+  --pink-light: #ffe5ec;
+  --pink-medium: #ffc2d1;
+  --pink-regular: #ffb3c6;
+  --pink-darker: #ff8fab;
+  --pink-dark: #fb6f92;
+
+  --text-color: rgb(51, 51, 51);
+  --font-size: 16px;
+}

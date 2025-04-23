@@ -1,0 +1,66 @@
+@import './reset.css';
+@import './variables.css';
+@import './fonts.css';
+@import './button.css';
+
+body {
+  background-color: var(--pink-light);
+  font-family: 'Pixelify Sans', sans-serif;
+  color: var(--text-color);
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__return {
+  position: relative;
+  right: 12%;
+
+  font-size: 20px;
+  text-decoration: none;
+  color: var(--pink-darker);
+}
+
+.main__block {
+  width: 400px;
+  height: 400px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+
+  border: 2px solid var(--pink-darker);
+  border-radius: 15px;
+
+  box-shadow: 6px 6px var(--pink-dark);
+
+  background-color: var(--pink-regular);
+
+  padding: 20px;
+}
+
+.main__block h1 {
+  margin-bottom: 20px;
+}
+
+.main__title {
+  font-size: 20px;
+}
+
+
+
